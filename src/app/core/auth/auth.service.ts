@@ -37,7 +37,7 @@ export class AuthService {
 
   login(): void {
     //location.href = `${location.origin}${this.location.prepareExternalUrl("oauth2/authorization/okta")}`;
-    location.href = "https://airbnbcloneapi-2na7.onrender.com/oauth2/authorization/okta";
+    location.href = "https://myvoyageapi.onrender.com/oauth2/authorization/okta";
   }
 
   logout(): void {
