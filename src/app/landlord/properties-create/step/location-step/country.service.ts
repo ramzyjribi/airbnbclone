@@ -23,7 +23,7 @@ export class CountryService {
   }
 
   initFetchGetAllCountries(): void {
-    this.fetchCountry$ = this.http.get<Array<Country>>("https://airbnbcloneapi-2na7.onrender.com/assets/countries.json")
+    this.fetchCountry$ = this.http.get<Array<Country>>("https://myvoyageapi.onrender.com/assets/countries.json")
       .pipe(
         tap(countries =>
           this.countries$.set(State.Builder<Array<Country>>().forSuccess(countries))),
